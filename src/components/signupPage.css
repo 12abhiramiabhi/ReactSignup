@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&display=swap');
+
+body {
+    background-color: rgb(18, 20, 20);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+
+}
+
+.card {
+    background-color: rgb(242, 242, 252);
+    height: 400px;
+    width: 400px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.btn {
+    background-color: brown;
+    color: burlywood;
+    border: none;
+    padding: 15px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.input-field {
+    border: none;
+    background-color: rgba(250, 235, 215, 0.747);
+    padding: 5px 10px;
+}
